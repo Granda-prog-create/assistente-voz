@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {"name":"Python: Arquivo Atual","type":"python","request":"launch","program":"${file}","console":"integratedTerminal","justMyCode":true},
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "granda-assistant:chat.speak (python3.9)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "${workspaceFolder}/",
+                "lambdaHandler": "chat.speak"
+            },
+            "lambda": {
+                "runtime": "python3.9",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}
