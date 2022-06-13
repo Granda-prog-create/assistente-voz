@@ -19,4 +19,4 @@ NLU: Natural Lenguage Understanting (classificação de texto)
 
 
 Funções do assistente: 
-Abrir programas
+Abrir programas. 
